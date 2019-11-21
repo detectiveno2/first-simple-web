@@ -1,0 +1,108 @@
+/*@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');*/
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+body {
+	font-family: 'Nunito', -apple-system, 'Roboto', sans-serif;
+	margin: 0px;
+}
+
+header {
+	background-color: rgb(86, 61, 124);
+	display: flex;
+	flex-flow: row;
+	position: fixed;
+	width: 100%;
+}
+
+.menu{
+	display: flex;
+	list-style: none;
+	padding: 0px;
+	margin: 9px 0px;
+}
+
+.menu-right {
+	position: absolute;
+	right: 0;
+}
+
+.menu .item-menu {
+	text-decoration: none;
+	padding: 10px 10px;
+	color: rgb(203, 189, 226);
+	align-items: center;
+	float: right;
+}
+
+.menu .item-menu:hover {
+	color: #FFF;
+}
+
+.menu .logo-menu {
+	padding: 0px 10px;
+}
+
+.relative-sort-logo {
+	position: relative;
+	left: 5px;
+	bottom: 4px;
+}
+
+.dropdown-version {
+	position: absolute;
+	background-color: #FFF;
+	border: 1px solid #EEE;
+	border-radius: 3px;
+	top: 90%;
+	right: 50%;
+	width: 150px;
+	display: none;
+}
+
+.has-dropdown {
+	position: relative;
+}
+
+.has-dropdown:focus {
+	color: #FFF;
+}
+
+.has-dropdown:focus + .dropdown-version {
+	display: block;
+}
+
+.dropdown-version .dropdown-item {
+	display: block;
+	text-decoration: none;
+	padding: 4px 24px;
+	color: #000;
+}
+
+.dropdown-version .dropdown-item:hover {
+	background-color: #EEE;
+}
+
+.dropdown-divider {
+	height: 0px;
+	width: 150px;
+	border-bottom: 1px solid #EEE;
+	margin: 4px 0px;
+}
+
+.button-download {
+	border: 1px solid #FFE484;
+	border-radius: 4px;
+	box-sizing: content-box;
+	padding: 8.5px 12px;
+	margin: 0px 12px;
+	color: #FFE484;
+	text-decoration: none;
+	text-align: center;
+	font-weight: 500;
+	transition: 0.2s;
+}
+
+.button-download:hover {
+	background-color: #FFE484;
+	color: rgb(86, 61, 124);
+}
