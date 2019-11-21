@@ -1,1 +1,1 @@
-this is my first simple web that i design
+this is my first simple web that I write
