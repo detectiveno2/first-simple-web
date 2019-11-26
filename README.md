@@ -1,1 +1,2 @@
-this is my first simple web that I write
+# This is my first demo-web
+just do and commit one by one every feature that i have done
