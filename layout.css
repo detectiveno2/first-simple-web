@@ -1,6 +1,6 @@
 .main-content {
 	display: grid;
-	padding-top: 60px;
+	padding-top: 100px;
 	grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr;
 }
 
