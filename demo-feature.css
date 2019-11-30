@@ -173,3 +173,91 @@ header {
 	color: #FFF;
 	background-color: #6C757D;
 }
+
+.discussion-item {
+	margin: 0.35px;
+	background-color: rgb(248, 249, 250);
+	padding: 3rem;
+}
+
+.discussion-item h3 {
+	font-size: 28px;
+	margin: 12px 0px;
+}
+
+.discussion-item h4 {
+	margin: 0px;
+	font-size: 20px;
+}
+
+.discussion-item p{
+	margin: 0px;
+	margin-bottom: 15px;
+}
+
+.discussion-item figure {
+	margin: 40px 0px;
+	font-size: 14px;
+}
+
+.discussion-item-2 p a {
+	text-decoration: none;
+	color: #007BFF;
+}
+
+.discussion-item-2 p a:hover {
+	text-decoration: underline;
+	color: #0056B3;
+}
+
+.text-primary {
+	color: #007BFF;
+}
+
+.language-sh::before {
+	color: #009;
+	content: "$ ";
+}
+
+.half-rule {
+	width: 6rem;
+	margin: 2.5rem 0;
+	border: 0px;
+	border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.btn-outline-primary {
+	text-decoration: none;
+	color: #007BFF;
+	border: 1px solid rgb(0, 123, 255);
+	padding: 6px 12px;
+	border-radius: 4px;
+}
+
+.btn-outline-primary:hover {
+	color: #FFF;
+	background-color: #007BFF;
+	transition: 0.35s;
+}
+
+pre code {
+	word-break: normal;
+	display: block;
+	overflow: auto;
+}
+
+.nb {
+	color: #366;
+}
+
+.nt {
+	color: #2F6F9F;
+}
+
+.na {
+	color: #4F9FCF;
+}
+
+.s {
+	color: #D44950;
+}
