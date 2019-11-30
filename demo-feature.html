@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="./layout.css">
 </head>
 <body>
-	<header>
+	<div class="header">
 		<ul class="menu menu-left">
 			<li><a href="#" class="item-menu logo-menu">
 				<i class="fab fa-bootstrap fa-2x"></i>
@@ -19,7 +19,7 @@
 			<li><a href="#" class="item-menu">Blog</a></li>
 		</ul>
 		<ul class="menu menu-right">
-			<li focusable="true"><a class="item-menu has-dropdown">
+			<li><a href="#" class="item-menu has-dropdown">
 				v4.3<i class="fas fa-sort-down relative-sort-logo"></i>
 				<div class="dropdown-version">
 					<a href="#" class="dropdown-item">v4.2.1</a>
@@ -44,7 +44,7 @@
 			</a></li>
 			<a class="button-download" href="#">Download</a>
 		</ul>
-	</header>
+	</div>
 	<div class="main-content">
 		<div class="content">
 			<h1>Bootstrap</h1>
@@ -91,8 +91,30 @@
 			<hr class="half-rule" />
 			<a class="btn-outline-primary" href="#">Explore the docs</a>
 		</div>
-		<div class="discussion-item discussion-item-3">Item 3</div>
+		<div class="discussion-item discussion-item-3">
+			<svg id="i-lightning" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-primary">
+				<title>Lightning</title>
+    			<path d="M18 13 L26 2 8 13 14 19 6 30 24 19 Z" />
+			</svg>
+			<h3>Official Themes</h3>
+			<p>Take Bootstrap 4 to the next level with official premium themes—toolkits built on Bootstrap with new components and plugins, docs, and build tools.</p>
+			<img src="./img/bootstrap-themes.png" style="width: 100%;" />
+			<hr class="half-rule" />
+			<a class="btn-outline-primary" href="#">Browse themes</a>
+		</div>
 	</div>
+	<footer>
+		<div class="footer-container">
+			<ul class="bd-footer-link">
+				<li><a href="#">GitHub</a></li>
+				<li><a href="#">Twitter</a></li>
+				<li><a href="#">Examples</a></li>
+				<li><a href="#">About</a></li>
+			</ul>
+			<p>Designed and built with all the love in the world by the <a href="#">Bootstrap team</a> with the help of <a href="#">our contributors</a>.</p>
+			<p>Currently v4.4.1. Code licensed <a href="#">MIT</a>, docs <a href="#">CC BY 3.0</a>.</p>
+		</div>
+	</footer>
 	<script src="https://kit.fontawesome.com/513217d875.js" crossorigin="anonymous"></script>
 </body>
 </html>

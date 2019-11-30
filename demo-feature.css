@@ -6,7 +6,7 @@ body {
 	margin: 0px;
 }
 
-header {
+.header {
 	background-color: rgb(86, 61, 124);
 	display: flex;
 	flex-flow: row;
@@ -241,7 +241,6 @@ header {
 }
 
 pre code {
-	word-break: normal;
 	display: block;
 	overflow: auto;
 }
@@ -260,4 +259,36 @@ pre code {
 
 .s {
 	color: #D44950;
+}
+
+footer {
+	background-color: #F7F7F7;
+}
+
+.footer-container {
+	padding: 48px;
+	color: #6C757D;
+	font-size: 14px;
+}
+
+.footer-container a {
+	color: #495057;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.footer-container a:hover {
+	text-decoration: underline;
+	color: #007BFF;
+}
+
+.bd-footer-link {
+	display: flex;
+	padding: 0px;
+	list-style: none;
+	margin-top: 0px;
+}
+
+.bd-footer-link li {
+	margin-right: 20px;
 }
